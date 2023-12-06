@@ -1,0 +1,2 @@
+# NumberDetectAI
+ Kaggle is fun
