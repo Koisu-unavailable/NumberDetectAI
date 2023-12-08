@@ -14,7 +14,7 @@ class App():
             rootApp=self,
             size="1080x720"
             )
-        self.currentWindow.loadFrame()
+        self.currentWindow.loadFrame(mainFrame)
         root.mainloop()
 
 if __name__ == "__main__":

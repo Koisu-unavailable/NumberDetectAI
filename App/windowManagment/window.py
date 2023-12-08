@@ -18,7 +18,6 @@ class windowBase():
         self.root : tk.Tk = root
         self.root.title(name)
         self.root.geometry(size)
-        self.loadFrame()
     def clearFrame(self, body):
         for widgets in body.winfo_children():
             widgets.destroy()

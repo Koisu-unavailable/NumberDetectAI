@@ -7,6 +7,6 @@ class drawingWindow(windowBase):
     def loadFrame(self, drawingResolution=drawingResolution):
         #Create a grid of buttons
         for i in range(int(drawingResolution.split("x")[0])):
-            for j in range(int(drawingResolution.split("x")[2])):
+            for j in range(int(drawingResolution.split("x")[1])):
                 tk.Button(command=createDataset.datasetCreator.numberToVector).grid(row=i, column=j)
     
