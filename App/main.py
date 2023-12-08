@@ -16,6 +16,7 @@ class App():
             )
         self.currentWindow.loadFrame(mainFrame)
         root.mainloop()
+        
 
 if __name__ == "__main__":
     app = App()
