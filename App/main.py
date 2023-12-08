@@ -14,7 +14,7 @@ class App():
             rootApp=self,
             size="1080x720"
             )
-        self.currentWindow.loadFrame(mainFrame)
+        self.currentWindow.loadFrame()
         root.mainloop()
         
 

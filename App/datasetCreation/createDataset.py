@@ -1,3 +1,3 @@
 class datasetCreator():
-    def numberToVector():
+    def buttonInputToVector():
         pass
