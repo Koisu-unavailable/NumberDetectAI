@@ -1,5 +1,5 @@
 import tkinter as tk
-from window import *
+from windowManagment.window import *
 from datasetCreation import createDataset
 class drawingWindow(windowBase):
     name = "Placeholder"
@@ -9,3 +9,4 @@ class drawingWindow(windowBase):
         for i in range(int(drawingResolution.split("x")[0])):
             for j in range(int(drawingResolution.split("x")[2])):
                 tk.Button(command=createDataset.datasetCreator.numberToVector).grid(row=i, column=j)
+    

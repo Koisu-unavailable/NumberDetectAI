@@ -1,5 +1,7 @@
 import tkinter as tk
-
+'''
+Contains the base for the window class
+'''
 class windowBase():
     '''
     This is the base for any tkinter window that I made
@@ -16,6 +18,7 @@ class windowBase():
         self.root : tk.Tk = root
         self.root.title(name)
         self.root.geometry(size)
+        self.loadFrame()
     def clearFrame(self, body):
         for widgets in body.winfo_children():
             widgets.destroy()
